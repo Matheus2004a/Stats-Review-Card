@@ -64,6 +64,7 @@ fieldset{
 
 figure img{
     filter: sepia(var(--accent)) brightness(90%) hue-rotate(220deg) saturate(300%) contrast(101%);
+    border-radius: 0 5px 5px 0;
 }
 
 @media (max-width: 880px){
@@ -71,21 +72,22 @@ figure img{
         width: 100%;
         flex-direction: column-reverse;
     }
-
+    
     .section-text{
         text-align: center;
     }
-
+    
     .section-text h3{
         font-size: 1.7rem;
     }
-
+    
     .container-actions{
         flex-direction: column;
     }
-
+    
     figure img{
         width: 100%;
+        border-radius: 5px 5px 0 0;
         background-size: cover;
     }
 }
