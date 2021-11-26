@@ -70,6 +70,7 @@ figure img{
 @media (max-width: 880px){
     main{
         width: 100%;
+        margin: 0;
         flex-direction: column-reverse;
     }
     
@@ -77,8 +78,8 @@ figure img{
         text-align: center;
     }
     
-    .section-text h3{
-        font-size: 1.7rem;
+    .section-text h1,h3{
+        font-size: 1.5rem;
     }
     
     .container-actions{
