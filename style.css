@@ -37,7 +37,9 @@ a{
 }
 
 .section-text{
+    display: grid;
     padding: 4rem 5rem;
+    gap: 2rem;
 }
 
 .section-text h1{
@@ -50,10 +52,14 @@ a{
 
 .section-text p{
     color: var(--main-paragraph);
+    line-height: 1.8rem;
 }
 
-.paragraph-main{
-    margin: 2rem 0;
+.container-actions{
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+    right: 7%;
 }
 
 .container-actions p{
@@ -63,12 +69,17 @@ a{
 }
 
 fieldset{
-    margin: 3rem 2rem;
+    margin: 0 2rem;
     border: none;
 }
 
 .section-text h1 span,footer p a{
     color: var(--accent);
+}
+
+figure{
+    height: 100%;
+    position: relative;
 }
 
 figure img{
@@ -108,6 +119,7 @@ footer p a:hover{
     
     .container-actions{
         flex-direction: column;
+        right: 0;
     }
     
     figure img{
